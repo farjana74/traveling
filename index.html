@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/69c8631e79.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+ <nav>
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-white mt-2">
+    <div class="container-fluid">
+      <div class="d-flex col-lg-5 ms-2">
+        <a  class="navbar-brand" href="#">
+          <img src="images/logo.svg" alt="" >
+        
+        </a>
+        <form class="d-flex ms-4 ">
+          <input style="transition:2s"; class="form-control me-2 border border-primary rounded-pill" type="search" placeholder="What is looking for?" aria-label="Search">
+         
+        </form>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse col-lg-7" id="navbarNavDropdown">
+
+        <ul class="navbar-nav fs-5 ms-2 p-1">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              HOME
+            </a>
+            <ul class="dropdown-menu bg-light " aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">ROOM</a></li>
+              <li><a class="dropdown-item" href="#">resturant</a></li>
+              <li><a class="dropdown-item" href="#">travel</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Template
+            </a>
+            <ul class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">User</a></li>
+              <li><a class="dropdown-item" href="#">Pages</a></li>
+              <li><a class="dropdown-item" href="#">Room</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">contact</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Docs
+            </a>
+            <ul class="dropdown-menu bg-light" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Documentation</a></li>
+              <li><a class="dropdown-item" href="#">Introduction</a></li>
+              <li><a class="dropdown-item" href="#">Directory</a></li>
+              <li><a class="dropdown-item" href="#">gulp</a></li>
+              <li><a class="dropdown-item" href="#">civilization</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active ms-2" aria-current="page" href="#">Sign in</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Sign up</a>
+          </li>
+      
+          <li class="ms-2">
+            <a class="btn btn-primary btn-lg rounded-pill" href="#" role="button">Add a Listening</a>
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    </nav>
+    <!-- aliser ----------------------------------------------------
+    
+    -->
+    <section class="container-fluid mb-5 ">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img style="opacity: 1;" src="images/slider/sl1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <div  class=" position-relative">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img style="opacity: 1;" src="images/slider/sl2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="opacity: 1;" src="images/slider/sl3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    </header>
+
+<main>
+  <section  class="container">
+   <p class="text-center">ONE-OF-A-KIND VACATION RENTALS</p>
+      <h1 class="text-center mb-5">Booking with us is easy</h1>
+    
+  <div class="d-flex mb-5">
+    <div class="col-lg-4">
+
+      <div>
+        <i class=" far fa-frown"></i>
+      </div>
+      <div>
+        <h2 class="fs-3" >Find the perfect rental</h2> 
+        <small  class=" text-wrap ">One morning, when Gregor Samsa woke from troubled dreams, 
+          he found himself transformed in his bed in</small>
+      </div>
+    </div>
+    <div class="col-lg-4">
+
+      <div>
+        <i class=" far fa-frown"></i>
+      </div>
+      <div>
+        <h2 class="fs-3 ms-4" >Find the perfect rental</h2> 
+        <small  class=" text-wrap ">One morning, when Gregor Samsa woke from troubled dreams, 
+          he found himself transformed in his bed in.in our country out of contrils and imagination</small>
+      </div>
+    </div>
+    <div class="col-lg-4">
+
+      <div>
+        <i class=" far fa-frown"></i>
+      </div>
+      <div>
+        <h2 class="fs-3" >Find the perfect rental</h2> 
+        <small  class=" text-wrap ">One morning, when Gregor Samsa woke from troubled dreams, 
+          he found himself transformed in his bed in</small>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+</body>
+</html>
